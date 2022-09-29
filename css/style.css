@@ -149,7 +149,9 @@ body {
 
 .template-pages__wrapper {
    margin-bottom: 121px;
+   display: -ms-grid;
    display: grid;
+   -ms-grid-columns: 387px 20px 387px 20px 387px;
    grid-template-columns: repeat(3, 387px);
    gap: 20px;
 
