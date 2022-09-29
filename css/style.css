@@ -85,7 +85,7 @@ body {
 .intro {
    width: 100%;
    height: 602px;
-   background: url('/img/Image-upper.jpg') no-repeat center / cover;
+   background: url('../img/Image-upper.jpg') no-repeat center / cover;
    text-align: center;
 }
 
