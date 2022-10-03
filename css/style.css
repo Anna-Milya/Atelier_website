@@ -269,11 +269,9 @@ body {
 
 /* Section "follow me" */
 
-.follow {}
 
-
-
-.follow__body {
+.follow__wrapper {
+   margin-bottom: 125px;
    display: flex;
    justify-content: space-between;
    min-height: 282px;
@@ -282,16 +280,21 @@ body {
 
 }
 
-/* .follow__link {
-   flex-basis: 217px;
-} */
 
 .follow__item {
+   /* position: relative; */
    top: 0;
    left: 0;
    object-fit: cover;
    max-width: 217px;
 }
+
+
+
+/* .follow__icon {
+   position: absolute;
+   z-index: 101;
+} */
 
 .box__wrapper {
    padding: 40px;
@@ -319,4 +322,88 @@ body {
    color: #181511;
    background-color: #FFAE2B;
    border-radius: 3px;
+}
+
+
+/* Subscribe section */
+
+.subscribe {
+   text-align: center;
+   text-transform: none;
+}
+
+.suscribe__inner {
+   margin: 0 auto;
+   max-width: 600px;
+}
+
+
+.subscribe__title {
+   margin-bottom: 20px;
+   font-size: 60px;
+   line-height: 117%;
+   color: #FFAE2B;
+}
+
+.subscribe__text {
+   margin-bottom: 60px;
+   font-size: 12px;
+   line-height: 233%;
+   color: #ACA592;
+}
+
+.subscribe__form {
+   margin-bottom: 32px;
+}
+
+.subscibe__disclaimer {
+   font-size: 14px;
+   line-height: 143%;
+   color: #ACA592;
+   margin-bottom: 20px;
+}
+
+.gold {
+   color: #FFAE2B;
+}
+
+.subscribe__list {
+   margin-bottom: 39px;
+}
+
+.list {}
+
+.list__item {}
+
+
+/* Footer */
+
+.footer__inner {
+   display: flex;
+   border-top: 1px solid #4B4136;
+   justify-content: space-between;
+   align-items: center;
+   height: 72px;
+   text-transform: none;
+}
+
+.footer__text {
+   font-size: 12px;
+   line-height: 183%;
+}
+
+.footer__links {
+   display: flex;
+}
+
+.footer__item {
+   line-height: 273%;
+   color: #FFAE2B;
+   margin-right: 11px;
+
+
+}
+
+.footer__item:last-child {
+   margin: 0;
 }
