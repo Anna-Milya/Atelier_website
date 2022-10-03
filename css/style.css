@@ -9,7 +9,6 @@ body {
 }
 
 .wrapper {
-   min-height: 100%;
    overflow: hidden;
 }
 
@@ -72,6 +71,7 @@ body {
    padding: 15px 23px;
    color: #FFAE2B;
    border: 1px solid;
+   border-radius: 3px;
 
 
 }
@@ -119,7 +119,13 @@ body {
    line-height: 22px;
    color: #181511;
    background-color: #FFAE2B;
+   border-radius: 3px;
 }
+
+.intro__btn:hover {
+   transform: scale(1.4);
+}
+
 
 /* Template Pages */
 
@@ -180,7 +186,7 @@ body {
 /* Outro image section*/
 
 .outro {
-   background-color: #161616;
+   background-color: #181511;
    position: relative;
    height: 500px;
 }
@@ -204,4 +210,52 @@ body {
 
 .services__title {
    margin-bottom: 60px;
+}
+
+
+/* Services-catalog */
+
+.services-catalog {
+   display: flex;
+   flex-wrap: wrap;
+   text-transform: none;
+}
+
+.catalog {
+   flex: 0 1 33.333%;
+}
+
+.catalog__item {
+   margin-bottom: 115px;
+   padding: 61px;
+   min-width: 400px;
+   height: 350px;
+   border: 1px solid #4B4136;
+}
+
+.catalog__icon {
+   width: 60px;
+   height: 60px;
+   margin-bottom: 20px;
+}
+
+.item {}
+
+.catalog__title {
+   font-size: 29px;
+   line-height: 138%;
+   color: #FFAE2B;
+}
+
+.catalog__subtitle {
+   font-size: 15px;
+   line-height: 173%;
+   color: #ACA592;
+   margin-bottom: 5px;
+}
+
+.catalogue__text {
+   line-height: 236%;
+   color: inherit;
+   margin-bottom: 15px;
 }
