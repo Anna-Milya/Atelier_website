@@ -4,6 +4,7 @@ body {
    font-family: 'Old Standard TT', serif;
    font-size: 11px;
    text-transform: uppercase;
+   height: 5710px;
    /* font-family: 'Roboto', sans-serif; */
 
 }
@@ -40,6 +41,12 @@ body {
    line-height: 127%;
    text-transform: none;
    color: #FFAE2B;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+   flex: 1 1 auto;
 }
 
 /* Header menu */
@@ -258,4 +265,58 @@ body {
    line-height: 236%;
    color: inherit;
    margin-bottom: 15px;
+}
+
+/* Section "follow me" */
+
+.follow {}
+
+
+
+.follow__body {
+   display: flex;
+   justify-content: space-between;
+   min-height: 282px;
+   padding: 21px 0;
+   border: 1px solid #363636;
+
+}
+
+/* .follow__link {
+   flex-basis: 217px;
+} */
+
+.follow__item {
+   top: 0;
+   left: 0;
+   object-fit: cover;
+   max-width: 217px;
+}
+
+.box__wrapper {
+   padding: 40px;
+   display: flex;
+   flex-grow: 1;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+
+}
+
+
+.box__title {
+   margin-bottom: 40px;
+   font-size: 40px;
+   line-height: 125%;
+   color: #FFAE2B;
+   text-transform: none;
+}
+
+.box__link {
+   padding: 14px 24px;
+   max-width: 122px;
+   max-height: 50px;
+   line-height: 200%;
+   color: #181511;
+   background-color: #FFAE2B;
 }
