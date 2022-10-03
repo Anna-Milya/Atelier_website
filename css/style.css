@@ -5,7 +5,6 @@ body {
    font-size: 11px;
    text-transform: uppercase;
    height: 5710px;
-   /* font-family: 'Roboto', sans-serif; */
 
 }
 
@@ -362,7 +361,10 @@ body {
    color: #ACA592;
    margin-bottom: 20px;
 }
-
+.disclaimer__link {
+   text-decoration: underline;
+   color: #FFAE2B;
+}
 .gold {
    color: #FFAE2B;
 }
@@ -394,16 +396,27 @@ body {
 
 .footer__links {
    display: flex;
+
 }
 
 .footer__item {
    line-height: 273%;
    color: #FFAE2B;
    margin-right: 11px;
+}
 
-
+.footer__item::after {
+   content: '';
+   display: inline-block;
+   width: 2px;
+   height: 12px;
+   background-color: #4B4136;
 }
 
 .footer__item:last-child {
    margin: 0;
+}
+
+.footer__item:last-child::after {
+   display: none;
 }
