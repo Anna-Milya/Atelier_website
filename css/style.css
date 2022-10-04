@@ -432,12 +432,16 @@ body {
 }
 
 .subscribe__list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
    margin-bottom: 39px;
 }
 
-.list {}
 
 .list__item {
+   display: inline-block;
+   margin-right: 8px;
    padding: 14px;
    border: 1px solid #4B4136;
 }
@@ -446,6 +450,9 @@ body {
    transform: scale(1.1);
 }
 
+.list__item:last-child {
+   margin: 0;
+}
 /* Footer */
 
 .footer__inner {
