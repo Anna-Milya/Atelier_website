@@ -119,6 +119,7 @@ body {
 }
 
 .intro__btn {
+   display: inline-block;
    padding: 20px 28px;
    line-height: 200%;
    color: #000;
@@ -337,7 +338,8 @@ body {
 .box__image {
    position: absolute;
    z-index: -1;
-   opacity: 0.3;
+   object-fit: cover;
+   opacity: 0.1;
 }
 
 
@@ -391,7 +393,7 @@ body {
 
 .subscribe__btn {
    font-size: 16px;
-   background-color: #ffa91c;
+   background-color: #FFAE2B;
    border: 2px solid #fff;
    padding: 0 20px;
    min-height: 54px;
@@ -405,10 +407,9 @@ body {
 }
 
 .subscribe__btn:hover {
-   background-color: #ffa91c;
+   color: #fff;
+   transition: 0.4s;
 }
-
-
 
 .subscribe__disclaimer {
    font-size: 14px;
@@ -454,6 +455,7 @@ body {
 }
 
 .footer__text {
+   color: #ACA592;
    line-height: 183%;
 }
 
@@ -469,7 +471,6 @@ body {
 
 .footer__item:hover {
    color: #ACA592;
-   font-size: 14px;
    transform: scale(1.1);
 }
 
