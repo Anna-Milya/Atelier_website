@@ -330,7 +330,8 @@ body {
 
 .subscribe__inner {
    margin: 0 auto;
-   max-width: 600px;
+   padding: 0 30px;
+   max-width: 630px;
    align-items: center;
    text-align: center;
    text-transform: none;
@@ -351,33 +352,51 @@ body {
    color: #ACA592;
 }
 
-/* .subscribe-info {
-   display: flex;
+
+.subscribe__form {
+   display: inline-flex;
+   font-size: 20px;
    align-items: center;
-} */
+   margin-bottom: 32px;
+}
 
 .subscribe__input {
+   padding: 0 20px;
    color: #363636;
-   margin-bottom: 32px;
    min-width: 420px;
-   height: 54px;
-   border-top-left-radius: 3px;
-   border-bottom-left-radius: 3px;
+   min-height: 54px;
+   border-radius: 3px 0px 0px 3px;
+   align-items: center;
+   border-right: 0;
+}
+
+.subscribe__input:focus {
+   color: #000;
 }
 
 .subscribe__btn {
+   font-size: 12px;
    background: #FFAE2B;
    border: 2px solid #fff;
    padding: 0 20px;
-   height: 54px;
+   min-height: 54px;
    min-width: 122px;
    line-height: 200%;
    color: #000;
-
-   border-top-right-radius: 3px;
-   border-bottom-right-radius: 3px;
+   border-radius: 0px 3px 3px 0px;
    text-transform: uppercase;
+   text-align: center;
+   align-items: center
 }
+
+
+
+
+
+
+
+
+
 
 .subscribe__disclaimer {
    font-size: 14px;
