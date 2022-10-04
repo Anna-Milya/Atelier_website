@@ -420,8 +420,14 @@ body {
 
 .list {}
 
-.list__item {}
+.list__item {
+   padding: 14px;
+   border: 1px solid #4B4136;
+}
 
+.list__item:hover {
+   transform: scale(1.1);
+}
 
 /* Footer */
 
@@ -452,7 +458,7 @@ body {
 .footer__item:hover {
    color: #ACA592;
    font-size: 14px;
-   transition: 0.5s ease;
+   transform: scale(1.1);
 }
 
 
