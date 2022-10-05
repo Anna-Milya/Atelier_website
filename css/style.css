@@ -5,7 +5,10 @@ body {
    font-size: 11px;
    text-transform: uppercase;
    /* height: 5710px; */
+}
 
+img {
+   max-width: 100%;
 }
 
 .wrapper {
@@ -163,15 +166,21 @@ body {
 
 .template-pages__wrapper {
    margin-bottom: 121px;
-   display: -ms-grid;
+   /* display: -ms-grid;
    display: grid;
-   -ms-grid-columns: 387px 20px 387px 20px 387px;
-   grid-template-columns: repeat(3, 387px);
-   gap: 20px;
+   -ms-grid-columns: 387px 15px 387px 15px 387px;
+   grid-template-columns: repeat(auto-fill, 387px);
+   gap: 15px; */
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
 
 }
 
 .template-pages__product {
+   max-width: 387px;
+   margin-bottom: 20px;
    padding: 41px;
    display: flex;
    flex-direction: column;
@@ -182,7 +191,6 @@ body {
 .product img {
    margin-bottom: 20px;
    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
-
 }
 
 .product__link {
@@ -234,6 +242,7 @@ body {
    display: flex;
    flex-wrap: wrap;
    text-transform: none;
+   justify-content: center;
 }
 
 .catalog {
@@ -281,6 +290,7 @@ body {
 .follow__wrapper {
    margin-bottom: 125px;
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
    min-height: 282px;
    padding: 21px 0;
@@ -291,12 +301,12 @@ body {
 
 .follow__item {
    /* position: relative; */
+   max-width: 100%;
    top: 0;
    left: 0;
    object-fit: cover;
    max-width: 217px;
 }
-
 
 
 /* .follow__icon {
@@ -340,6 +350,7 @@ body {
 }
 
 .box__image {
+   max-width: 100%;
    position: absolute;
    z-index: -1;
    object-fit: cover;
@@ -449,6 +460,7 @@ body {
 
 .list__item:hover {
    transform: scale(1.1);
+   -webkit-transform: scale(1.1);
 }
 
 .list__item:last-child {
@@ -470,7 +482,6 @@ body {
 }
 
 .footer__text {
-
    line-height: 200%;
    color: #ACA592;
    text-align: center;
@@ -481,14 +492,16 @@ body {
 }
 
 .footer__item {
+   display: inline-block;
    line-height: 273%;
    color: #FFAE2B;
    margin-right: 11px;
 }
 
 .footer__item:hover {
-   color: #ACA592;
    transform: scale(1.1);
+   color: #ACA592;
+   -webkit-transform: scale(1.1);
 }
 
 
