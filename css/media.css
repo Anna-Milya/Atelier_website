@@ -135,9 +135,16 @@
    }
 
    .subscribe__btn {
+      margin-top: 5px;
       border-radius: 3px;
       min-width: 298px;
+      border: none;
    }
+
+   .subscribe__btn:hover {
+      border: 1px solid #fff;
+   }
+
 
 
 
