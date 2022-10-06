@@ -30,7 +30,7 @@
 } */
 
 
-@media (max-width:767px) {
+/* @media (max-width:767px) {
    .menu {
       display: none;
    }
@@ -58,7 +58,7 @@
    .services__subtitle {
       padding-top: 45px;
    }
-}
+} */
 
 /* .services-catalog {
       display: flex;
