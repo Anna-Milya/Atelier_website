@@ -30,7 +30,7 @@
 } */
 
 
-/* @media (max-width:767px) {
+@media (max-width:767px) {
    .menu {
       display: none;
    }
@@ -58,13 +58,13 @@
    .services__subtitle {
       padding-top: 45px;
    }
-} */
+}
 
-/* .services-catalog {
-      display: flex;
-      flex-wrap: nowrap;
-      align-items: center;
-   } */
+.services-catalog {
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+}
 
 
 @media (max-width: 320px) {
@@ -104,6 +104,9 @@
       display: none;
    }
 
+   .follow__wrapper {
+      margin-bottom: 50px;}
+      
    .follow__item {
       display: none;
    }
