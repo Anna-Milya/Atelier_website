@@ -373,7 +373,7 @@ img {
 
 .subscribe__text {
    margin-bottom: 40px;
-   font-size: 12px;
+   font-size: 14px;
    line-height: 233%;
    color: #ACA592;
 }
@@ -386,6 +386,7 @@ img {
    justify-content: center;
    align-items: center;
    margin-bottom: 32px;
+   font-size: 16px;
 }
 
 .subscribe__input {
@@ -396,6 +397,7 @@ img {
    min-height: 54px;
    border-radius: 3px 0px 0px 3px;
    border-right: 0;
+   text-transform: uppercase;
 }
 
 .subscribe__input:focus {
@@ -411,7 +413,7 @@ img {
    min-height: 54px;
    width: 122px;
    line-height: 200%;
-   color: #000;
+   color: #fff;
    border-radius: 0px 3px 3px 0px;
    text-transform: uppercase;
    text-align: center;

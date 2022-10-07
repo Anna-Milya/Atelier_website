@@ -180,6 +180,7 @@
    }
 
    .subscribe__btn {
+      font-size: 16px;
       margin-top: 5px;
       border-radius: 3px;
       min-width: 298px;
@@ -193,6 +194,6 @@
    .footer__inner {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-between;
    }
 }
