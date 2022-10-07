@@ -1,4 +1,6 @@
-# Atelier_website
+##Atelier_website
+(Figma template)
+[Atelier_website](anna-milya.github.io/Atelier_website/)
  - BEM;
  - flexbox;
  - responsive (no mobile or any other layouts were included initially);
