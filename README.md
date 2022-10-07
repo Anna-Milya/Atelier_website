@@ -1,4 +1,4 @@
-## Atelier_website(Figma template)
+## Atelier_website (Figma template)
 [Atelier_website](anna-milya.github.io/Atelier_website/)
  - BEM;
  - flexbox;
