@@ -356,7 +356,7 @@ img {
 
 .subscribe__inner {
    margin: 0 auto;
-   padding: 0 30px;
+   padding: 0 15px;
    max-width: 630px;
    align-items: center;
    text-align: center;
@@ -381,7 +381,9 @@ img {
 
 .subscribe__form {
    display: inline-flex;
+   max-width: 100%;
    font-size: 20px;
+   justify-content: center;
    align-items: center;
    margin-bottom: 32px;
 }
@@ -389,10 +391,9 @@ img {
 .subscribe__input {
    padding: 0 20px;
    color: #363636;
-   min-width: 420px;
+   width: 420px;
    min-height: 54px;
    border-radius: 3px 0px 0px 3px;
-   align-items: center;
    border-right: 0;
 }
 
@@ -401,18 +402,17 @@ img {
 }
 
 .subscribe__btn {
-   font-size: 16px;
+   font-size: 14px;
    background-color: #FFAE2B;
    border: 2px solid #fff;
    padding: 0 20px;
    min-height: 54px;
-   min-width: 122px;
+   max-width: 122px;
    line-height: 200%;
    color: #000;
    border-radius: 0px 3px 3px 0px;
    text-transform: uppercase;
    text-align: center;
-   align-items: center
 }
 
 .subscribe__btn:hover {
