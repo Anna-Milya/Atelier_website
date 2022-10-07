@@ -273,13 +273,14 @@ img {
 }
 
 .catalog__subtitle {
-   font-size: 15px;
+   font-size: 26px;
    line-height: 173%;
    color: #ACA592;
    margin-bottom: 5px;
 }
 
 .catalog__text {
+   font-size: 12px;
    line-height: 236%;
    color: inherit;
    margin-bottom: 15px;
