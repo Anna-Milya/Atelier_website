@@ -389,6 +389,7 @@ img {
 }
 
 .subscribe__input {
+   max-width: 100%;
    padding: 0 20px;
    color: #363636;
    width: 420px;
@@ -402,12 +403,13 @@ img {
 }
 
 .subscribe__btn {
+   max-width: 100%;
    font-size: 14px;
    background-color: #FFAE2B;
    border: 2px solid #fff;
    padding: 0 20px;
    min-height: 54px;
-   max-width: 122px;
+   width: 122px;
    line-height: 200%;
    color: #000;
    border-radius: 0px 3px 3px 0px;
