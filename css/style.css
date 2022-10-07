@@ -134,6 +134,7 @@ img {
 }
 
 .intro__btn:hover {
+   color: #fff;
    border: 1px solid #fff;
    background-color: #ff9d00;
 }
@@ -329,7 +330,7 @@ img {
 }
 
 .box__link {
-   font-style: 12px;
+   /* font-style: 12px; */
    padding: 14px 24px;
    line-height: 200%;
    border: 1px solid #FFAE2B;
@@ -339,6 +340,7 @@ img {
 }
 
 .box__link:hover {
+   color: #fff;
    border: 1px solid #fff;
    background-color: #ff9d00;
 }
@@ -382,16 +384,17 @@ img {
 .subscribe__form {
    display: inline-flex;
    max-width: 100%;
-   font-size: 20px;
+   font-size: 14px;
    justify-content: center;
    align-items: center;
    margin-bottom: 32px;
-   font-size: 16px;
+
 }
 
 .subscribe__input {
    max-width: 100%;
    padding: 0 20px;
+   font-size: 14px;
    color: #363636;
    width: 420px;
    min-height: 54px;
@@ -413,7 +416,7 @@ img {
    min-height: 54px;
    width: 122px;
    line-height: 200%;
-   color: #fff;
+   color: #000;
    border-radius: 0px 3px 3px 0px;
    text-transform: uppercase;
    text-align: center;
