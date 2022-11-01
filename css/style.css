@@ -217,7 +217,7 @@ img {
 /* Outro image section*/
 
 .outro {
-   max-height: 500px;
+   min-height: 500px;
    background-color: #181511;
 }
 
